@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: 300ms ease-out;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none !important;
+}
+.container-fluid {
+  padding: 0;
+}
+.navbar {
+  height: 10vh;
+  background: #0071bc !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.navbar .navbar-brand:hover {
+  color: #fff;
+}
+.navbar ul li {
+  margin-right: 15%;
+}
+.navbar ul li:hover {
+  border-bottom: 1px solid #fff;
+}
+.navbar ul li a {
+  color: #fff !important;
+}
+.navbar form input {
+  background: #0071bc;
+  border: 2px solid #fff;
+  color: black;
+  border-radius: 16px !important;
+}
+.navbar form input::placeholder {
+  color: #fff;
+}
+.container-fluid.bg-black-angular {
+  width: 100%;
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 35vh;
+  justify-content: space-evenly;
+}
+.container-fluid.bg-black-angular .image {
+  width: 20%;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  bottom: -50%;
+  left: 5%;
+  border: 15px solid #fff;
+}
+.container-fluid.bg-black-angular .angular {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container-fluid.bg-black-angular .angular img {
+  width: 100%;
+}
